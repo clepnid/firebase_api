@@ -111,7 +111,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://api-firebase-inky.vercel.app/object/1",
+					"raw": "https://api-firebase-inky.vercel.app/object/delete?id=1",
 					"protocol": "https",
 					"host": [
 						"api-firebase-inky",
@@ -120,7 +120,13 @@
 					],
 					"path": [
 						"object",
-						"1"
+						"delete"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -141,7 +147,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://api-firebase-inky.vercel.app/object/1",
+					"raw": "https://api-firebase-inky.vercel.app/user/delete?id=1",
 					"protocol": "https",
 					"host": [
 						"api-firebase-inky",
@@ -149,8 +155,14 @@
 						"app"
 					],
 					"path": [
-						"object",
-						"1"
+						"user",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -163,7 +175,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"token\": \"c06ea8c607fbfe927c09428d8fde704c\"\r\n}",
+					"raw": "{\r\n    \"token\": \"a3cb1df1e38521ae03135d1a76d81486\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -171,7 +183,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://api-firebase-inky.vercel.app/game/1",
+					"raw": "https://api-firebase-inky.vercel.app/game/delete?id=1",
 					"protocol": "https",
 					"host": [
 						"api-firebase-inky",
@@ -180,7 +192,13 @@
 					],
 					"path": [
 						"game",
-						"1"
+						"delete"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -326,7 +344,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://api-firebase-inky.vercel.app/object/2",
+					"raw": "https://api-firebase-inky.vercel.app/object/view?id=1",
 					"protocol": "https",
 					"host": [
 						"api-firebase-inky",
@@ -335,7 +353,13 @@
 					],
 					"path": [
 						"object",
-						"2"
+						"view"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
 					]
 				}
 			},

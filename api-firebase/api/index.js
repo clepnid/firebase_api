@@ -25,7 +25,7 @@ app.get('/api/version', (req, res) => {
 app.post('/user/create', (req, res) => {
     return createUser(req, res);
 });
-app.delete('/user/:id', (req, res) => {
+app.delete('/user/delete', (req, res) => {
     return deleteUser(req, res);
 });
 
@@ -38,7 +38,7 @@ app.get('/game/list',checkAdminToken, (req, res) => {
 app.get('/game/list/user', (req, res) => {
     return getGameByUser(req, res);
 });
-app.delete('/game/:id', (req, res) => {
+app.delete('/game/delete', (req, res) => {
     return deleteGameById(req, res);
 });
 
@@ -51,12 +51,12 @@ app.post('/object/create',checkAdminToken, (req, res) => {
 app.get('/object/list', (req, res) => {
     return getObjetos(req, res);
 });
-app.get('/object/:id', (req, res) => {
+app.get('/object/view', (req, res) => {
     return getObjetoById(req, res);
 });
 
 // Ruta para eliminar un objeto por su ID (solo para administrador)
-app.delete('/object/:id', (req, res) => {
+app.delete('/object/delete', (req, res) => {
     return deleteObjetoById(req, res);
 });
 
