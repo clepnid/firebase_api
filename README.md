@@ -9,17 +9,21 @@ Crear cuenta en vercel para deploy: https://vercel.com/
 
 ## Instalar packetes
 cd api-firebase
+
 npm i -y
 
 cd ./../node-firebase
+
 npm i -y
 
 ## Ejecutar en local
 cd node-firebase
+
 npm run start
 
 ## Hacer deploy en vercel
 cd api-firebase
+
 npm run deploy
 
 ## (Opcional) usar postman
