@@ -14,13 +14,16 @@ npm i -y
 cd ./../node-firebase
 npm i -y
 
-# Ejecutar en local
+## Ejecutar en local
 cd node-firebase
 npm run start
 
-# Hacer deploy en vercel
+## Hacer deploy en vercel
 cd api-firebase
 npm run deploy
 
-# (Opcional) usar postman
+## (Opcional) usar postman
 importar la coleccion de postman para la prueba de la api
+
+## Ejemplo de api:
+https://api-firebase-inky.vercel.app
